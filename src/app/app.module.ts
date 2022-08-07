@@ -11,6 +11,7 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
     BrowserModule
   ],
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
